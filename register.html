@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .d1 {
+            background-color: rgb(238, 238, 238);
+            text-align: center;
+        }
+        h1 {color: gray;}
+
+
+        .untitle {
+            color: blue;
+            columns: 5;
+            grid-auto-rows: 5;
+        }
+    </style>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="d1">
+        <h1>Registracija</h1>
+    </div>
+    <form name="Register">
+        <label for="fname">Korisnicko ime</label> </br>
+        <input type="fname" name="username"> </br>
+        <label for="text"> Email
+        </label> </br> 
+        <input type="text" name="email"> </br> 
+        <label for="password">Sifra</label> </br>
+        <input type="password" name="sifra"> </br>
+        <input type="submit" name="box" value="Registruj se" onclick="validator()" /></br>
+
+    </form>
+    
+</body>
+</html>

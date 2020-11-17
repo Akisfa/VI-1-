@@ -1,0 +1,3 @@
+misa = 481142 senior
+janko = 0 junior
+andre = 976821 admin
